@@ -27,9 +27,9 @@
         <h1 class="text-4xl md:text-5xl font-extrabold text-slate-900 mb-4">
             제14회 대구신문사장배 <span class="text-blue-600">배드민턴대회</span>
         </h1>
-        <p class="text-xl text-slate-500 mb-6">대진표 및 경기 일정 통합 대시보드</p>
+        <p class="text-xl text-slate-500 mb-6">전체 대진표 및 경기 일정 통합 대시보드</p>
         
-        <!-- 실시간 시계 (글자 크기 확대) -->
+        <!-- 실시간 시계 -->
         <div class="clock-container inline-flex items-center gap-4 px-8 py-4 rounded-3xl border-2 border-slate-200 shadow-md text-slate-800">
             <i class="fa-solid fa-clock text-blue-500 text-2xl animate-pulse"></i>
             <span id="current-date" class="font-semibold border-r-2 border-slate-300 pr-5 text-lg"></span>
@@ -47,28 +47,46 @@
             </div>
             
             <div class="space-y-6">
-                <!-- 경기 1: 임성민 선수 일정 반영 -->
+                <!-- 경기 1: 김영환/조진희 -->
                 <div class="match-card bg-white p-6 rounded-3xl shadow-sm border-slate-100 ring-4 ring-slate-50">
                     <div class="flex justify-between items-start mb-4">
                         <span class="px-3 py-1 bg-slate-200 text-slate-700 text-sm font-black rounded-lg uppercase">1 ROUND</span>
-                        <span class="text-blue-600 match-time"><i class="fa-regular fa-clock mr-2"></i> 09:30</span>
+                        <span class="text-blue-600 match-time"><i class="fa-regular fa-clock mr-2"></i> 08:18</span>
                     </div>
                     <div class="flex flex-col items-center text-center gap-3">
-                        <div class="player-name text-slate-700">남궁준[달구벌] / 이광수[달구벌]</div>
+                        <div class="player-name text-slate-700">김래형[본리] / 임상미[본리]</div>
                         <div class="vs-badge text-white px-5 py-1 rounded-full font-black tracking-tighter shadow-sm">VS</div>
                         <div class="player-name text-slate-800 font-bold">
-                            <span class="highlight-player">임성민</span>[참마음] / 박정우[참마음]
+                            <span class="highlight-player">김영환</span>[침산] / <span class="highlight-player">조진희</span>[침산]
                         </div>
                     </div>
                     <div class="mt-5 pt-4 border-t-2 border-dashed border-slate-100 text-center">
-                        <span class="text-sm font-semibold text-slate-500 bg-slate-50 px-4 py-1 rounded-full"><i class="fa-solid fa-location-dot mr-2"></i> 육상진흥센터(b) 2코트</span>
+                        <span class="text-sm font-semibold text-slate-500 bg-slate-50 px-4 py-1 rounded-full"><i class="fa-solid fa-location-dot mr-2"></i> 시민생활스포츠센터(b) 6코트</span>
                     </div>
                 </div>
 
-                <!-- 경기 2 -->
+                <!-- 경기 2: 김영환/조진희 -->
                 <div class="match-card bg-white p-6 rounded-3xl shadow-sm border-slate-100">
                     <div class="flex justify-between items-start mb-4">
-                        <span class="px-3 py-1 bg-slate-200 text-slate-700 text-sm font-black rounded-lg uppercase">1 ROUND</span>
+                        <span class="px-3 py-1 bg-slate-200 text-slate-700 text-sm font-black rounded-lg uppercase">2 ROUND</span>
+                        <span class="text-blue-600 match-time"><i class="fa-regular fa-clock mr-2"></i> 08:54</span>
+                    </div>
+                    <div class="flex flex-col items-center text-center gap-3">
+                        <div class="player-name text-slate-700">홍성찬[남구스포츠] / 김재현[훈민턴]</div>
+                        <div class="vs-badge text-white px-5 py-1 rounded-full font-black tracking-tighter shadow-sm">VS</div>
+                        <div class="player-name text-slate-800 font-bold">
+                            <span class="highlight-player">김영환</span>[침산] / <span class="highlight-player">조진희</span>[침산]
+                        </div>
+                    </div>
+                    <div class="mt-5 pt-4 border-t-2 border-dashed border-slate-100 text-center">
+                        <span class="text-sm font-semibold text-slate-500 bg-slate-50 px-4 py-1 rounded-full"><i class="fa-solid fa-location-dot mr-2"></i> 시민생활스포츠센터(b) 6코트</span>
+                    </div>
+                </div>
+
+                <!-- 경기 3: 김병찬/차신효 -->
+                <div class="match-card bg-white p-6 rounded-3xl shadow-sm border-slate-100 ring-4 ring-blue-50">
+                    <div class="flex justify-between items-start mb-4">
+                        <span class="px-3 py-1 bg-blue-200 text-blue-700 text-sm font-black rounded-lg uppercase">1 ROUND</span>
                         <span class="text-blue-600 match-time"><i class="fa-regular fa-clock mr-2"></i> 10:06</span>
                     </div>
                     <div class="flex flex-col items-center text-center gap-3">
@@ -83,28 +101,10 @@
                     </div>
                 </div>
 
-                <!-- 경기 3: 김영환 선수 일정 반영 -->
+                <!-- 경기 4: 김병찬/차신효 -->
                 <div class="match-card bg-white p-6 rounded-3xl shadow-sm border-slate-100 ring-4 ring-blue-50">
                     <div class="flex justify-between items-start mb-4">
                         <span class="px-3 py-1 bg-blue-200 text-blue-700 text-sm font-black rounded-lg uppercase">2 ROUND</span>
-                        <span class="text-blue-600 match-time"><i class="fa-regular fa-clock mr-2"></i> 11:12</span>
-                    </div>
-                    <div class="flex flex-col items-center text-center gap-3">
-                        <div class="player-name text-slate-800 font-bold">
-                            <span class="highlight-player">김영환</span>[참마음] / 정운기[참마음]
-                        </div>
-                        <div class="vs-badge text-white px-5 py-1 rounded-full font-black tracking-tighter shadow-sm">VS</div>
-                        <div class="player-name text-slate-700">최인규[스타] / 배종욱[스타]</div>
-                    </div>
-                    <div class="mt-5 pt-4 border-t-2 border-dashed border-slate-100 text-center">
-                        <span class="text-sm font-semibold text-slate-500 bg-slate-50 px-4 py-1 rounded-full"><i class="fa-solid fa-location-dot mr-2"></i> 육상진흥센터(b) 7코트</span>
-                    </div>
-                </div>
-
-                <!-- 경기 4 -->
-                <div class="match-card bg-white p-6 rounded-3xl shadow-sm border-slate-100">
-                    <div class="flex justify-between items-start mb-4">
-                        <span class="px-3 py-1 bg-slate-200 text-slate-700 text-sm font-black rounded-lg uppercase">2 ROUND</span>
                         <span class="text-blue-600 match-time"><i class="fa-regular fa-clock mr-2"></i> 12:12</span>
                     </div>
                     <div class="flex flex-col items-center text-center gap-3">
@@ -113,6 +113,24 @@
                         </div>
                         <div class="vs-badge text-white px-5 py-1 rounded-full font-black tracking-tighter shadow-sm">VS</div>
                         <div class="player-name text-slate-700">강나겸[대송] / 정지환[대송]</div>
+                    </div>
+                    <div class="mt-5 pt-4 border-t-2 border-dashed border-slate-100 text-center">
+                        <span class="text-sm font-semibold text-slate-500 bg-slate-50 px-4 py-1 rounded-full"><i class="fa-solid fa-location-dot mr-2"></i> 육상진흥센터(b) 5코트</span>
+                    </div>
+                </div>
+
+                <!-- 경기 5: 김병찬/차신효 -->
+                <div class="match-card bg-white p-6 rounded-3xl shadow-sm border-slate-100 ring-4 ring-blue-50">
+                    <div class="flex justify-between items-start mb-4">
+                        <span class="px-3 py-1 bg-blue-200 text-blue-700 text-sm font-black rounded-lg uppercase">3 ROUND</span>
+                        <span class="text-blue-600 match-time"><i class="fa-regular fa-clock mr-2"></i> 12:48</span>
+                    </div>
+                    <div class="flex flex-col items-center text-center gap-3">
+                        <div class="player-name text-slate-700">곽준영[88] / 김영난[죽전]</div>
+                        <div class="vs-badge text-white px-5 py-1 rounded-full font-black tracking-tighter shadow-sm">VS</div>
+                        <div class="player-name text-slate-800 font-bold">
+                            <span class="highlight-player">김병찬</span>[참마음] / <span class="highlight-player">차신효</span>[참마음]
+                        </div>
                     </div>
                     <div class="mt-5 pt-4 border-t-2 border-dashed border-slate-100 text-center">
                         <span class="text-sm font-semibold text-slate-500 bg-slate-50 px-4 py-1 rounded-full"><i class="fa-solid fa-location-dot mr-2"></i> 육상진흥센터(b) 5코트</span>
@@ -129,10 +147,34 @@
             </div>
 
             <div class="space-y-6">
-                <!-- 경기 1 -->
-                <div class="match-card bg-white p-6 rounded-3xl shadow-sm border-slate-100 ring-4 ring-indigo-50">
+                <!-- 경기 1: 김영환/임성민 -->
+                <div class="match-card bg-white p-6 rounded-3xl shadow-sm border-slate-100 ring-4 ring-slate-50">
                     <div class="flex justify-between items-start mb-4">
-                        <span class="px-3 py-1 bg-indigo-100 text-indigo-700 text-sm font-black rounded-lg uppercase">1 ROUND</span>
+                        <div class="flex flex-col gap-1">
+                            <span class="px-3 py-1 bg-slate-200 text-slate-700 text-sm font-black rounded-lg uppercase">1 ROUND</span>
+                            <span class="text-xs font-bold text-slate-400">45D남복</span>
+                        </div>
+                        <span class="text-indigo-600 match-time"><i class="fa-regular fa-clock mr-2"></i> 08:00</span>
+                    </div>
+                    <div class="flex flex-col items-center text-center gap-3">
+                        <div class="player-name text-slate-700">여상수[제일] / 곽준영[88]</div>
+                        <div class="vs-badge text-white px-5 py-1 rounded-full font-black tracking-tighter shadow-sm">VS</div>
+                        <div class="player-name text-slate-800 font-bold">
+                            <span class="highlight-player">김영환</span>[침산] / <span class="highlight-player">임성민</span>[참마음]
+                        </div>
+                    </div>
+                    <div class="mt-5 pt-4 border-t-2 border-dashed border-slate-100 text-center">
+                        <span class="text-sm font-semibold text-slate-500 bg-slate-50 px-4 py-1 rounded-full"><i class="fa-solid fa-location-dot mr-2"></i> 시민생활스포츠센터(b) 10코트</span>
+                    </div>
+                </div>
+
+                <!-- 경기 2: 김병찬/김우찬 -->
+                <div class="match-card bg-white p-6 rounded-3xl shadow-sm border-slate-100 ring-4 ring-blue-50">
+                    <div class="flex justify-between items-start mb-4">
+                        <div class="flex flex-col gap-1">
+                            <span class="px-3 py-1 bg-blue-200 text-blue-700 text-sm font-black rounded-lg uppercase">1 ROUND</span>
+                            <span class="text-xs font-bold text-blue-400">40D남복</span>
+                        </div>
                         <span class="text-indigo-600 match-time"><i class="fa-regular fa-clock mr-2"></i> 08:00</span>
                     </div>
                     <div class="flex flex-col items-center text-center gap-3">
@@ -147,10 +189,13 @@
                     </div>
                 </div>
 
-                <!-- 경기 2 -->
-                <div class="match-card bg-white p-6 rounded-3xl shadow-sm border-slate-100">
+                <!-- 경기 3: 차신효/조진희 -->
+                <div class="match-card bg-white p-6 rounded-3xl shadow-sm border-slate-100 ring-4 ring-indigo-50">
                     <div class="flex justify-between items-start mb-4">
-                        <span class="px-3 py-1 bg-slate-200 text-slate-700 text-sm font-black rounded-lg uppercase">1 ROUND</span>
+                        <div class="flex flex-col gap-1">
+                            <span class="px-3 py-1 bg-indigo-100 text-indigo-700 text-sm font-black rounded-lg uppercase">1 ROUND</span>
+                            <span class="text-xs font-bold text-indigo-400">40D여복</span>
+                        </div>
                         <span class="text-indigo-600 match-time"><i class="fa-regular fa-clock mr-2"></i> 08:36</span>
                     </div>
                     <div class="flex flex-col items-center text-center gap-3">
@@ -165,41 +210,75 @@
                     </div>
                 </div>
 
-                <!-- 경기 3: 임성민 선수 일요일 일정 -->
+                <!-- 경기 4: 김영환/임성민 -->
                 <div class="match-card bg-white p-6 rounded-3xl shadow-sm border-slate-100 ring-4 ring-slate-50">
                     <div class="flex justify-between items-start mb-4">
                         <span class="px-3 py-1 bg-slate-200 text-slate-700 text-sm font-black rounded-lg uppercase">2 ROUND</span>
-                        <span class="text-indigo-600 match-time"><i class="fa-regular fa-clock mr-2"></i> 09:12</span>
+                        <span class="text-indigo-600 match-time"><i class="fa-regular fa-clock mr-2"></i> 08:54</span>
                     </div>
                     <div class="flex flex-col items-center text-center gap-3">
-                        <div class="player-name text-slate-700 font-bold">
-                            <span class="highlight-player">임성민</span>[참마음] / 최영호[참마음]
-                        </div>
+                        <div class="player-name text-slate-700">신세곤[신천] / 최병간[신천]</div>
                         <div class="vs-badge text-white px-5 py-1 rounded-full font-black tracking-tighter shadow-sm">VS</div>
-                        <div class="player-name text-slate-700">박인호[달서] / 정기석[달서]</div>
+                        <div class="player-name text-slate-800 font-bold">
+                            <span class="highlight-player">김영환</span>[침산] / <span class="highlight-player">임성민</span>[참마음]
+                        </div>
                     </div>
                     <div class="mt-5 pt-4 border-t-2 border-dashed border-slate-100 text-center">
-                        <span class="text-sm font-semibold text-slate-500 bg-slate-50 px-4 py-1 rounded-full"><i class="fa-solid fa-location-dot mr-2"></i> 시민생활스포츠센터(a) 12코트</span>
+                        <span class="text-sm font-semibold text-slate-500 bg-slate-50 px-4 py-1 rounded-full"><i class="fa-solid fa-location-dot mr-2"></i> 시민생활스포츠센터(b) 10코트</span>
                     </div>
                 </div>
 
-                <!-- 경기 4: 김영환 선수 일요일 일정 -->
+                <!-- 경기 5: 차신효/조진희 -->
+                <div class="match-card bg-white p-6 rounded-3xl shadow-sm border-slate-100 ring-4 ring-indigo-50">
+                    <div class="flex justify-between items-start mb-4">
+                        <span class="px-3 py-1 bg-indigo-100 text-indigo-700 text-sm font-black rounded-lg uppercase">2 ROUND</span>
+                        <span class="text-indigo-600 match-time"><i class="fa-regular fa-clock mr-2"></i> 09:30</span>
+                    </div>
+                    <div class="flex flex-col items-center text-center gap-3">
+                        <div class="player-name text-slate-800 font-bold">
+                            <span class="highlight-player">차신효</span>[참마음] / <span class="highlight-player">조진희</span>[침산]
+                        </div>
+                        <div class="vs-badge text-white px-5 py-1 rounded-full font-black tracking-tighter shadow-sm">VS</div>
+                        <div class="player-name text-slate-700">김은정[팔공] / 유상미[팔공]</div>
+                    </div>
+                    <div class="mt-5 pt-4 border-t-2 border-dashed border-slate-100 text-center">
+                        <span class="text-sm font-semibold text-slate-500 bg-slate-50 px-4 py-1 rounded-full"><i class="fa-solid fa-location-dot mr-2"></i> 시민생활스포츠센터(a) 9코트</span>
+                    </div>
+                </div>
+
+                <!-- 경기 6: 김병찬/김우찬 -->
                 <div class="match-card bg-white p-6 rounded-3xl shadow-sm border-slate-100 ring-4 ring-blue-50">
                     <div class="flex justify-between items-start mb-4">
                         <span class="px-3 py-1 bg-blue-200 text-blue-700 text-sm font-black rounded-lg uppercase">3 ROUND</span>
-                        <span class="text-indigo-600 match-time"><i class="fa-regular fa-clock mr-2"></i> 10:48</span>
+                        <span class="text-indigo-600 match-time"><i class="fa-regular fa-clock mr-2"></i> 09:48</span>
                     </div>
                     <div class="flex flex-col items-center text-center gap-3">
-                        <div class="player-name text-slate-700 font-bold">
-                            안상수[강북] / 최성진[강북]
-                        </div>
+                        <div class="player-name text-slate-700">이창국[달구벌] / 박재경[복현]</div>
                         <div class="vs-badge text-white px-5 py-1 rounded-full font-black tracking-tighter shadow-sm">VS</div>
                         <div class="player-name text-slate-800 font-bold">
-                            <span class="highlight-player">김영환</span>[참마음] / 정운기[참마음]
+                            <span class="highlight-player">김병찬</span>[참마음] / <span class="highlight-player">김우찬</span>[The진천]
                         </div>
                     </div>
                     <div class="mt-5 pt-4 border-t-2 border-dashed border-slate-100 text-center">
-                        <span class="text-sm font-semibold text-slate-500 bg-slate-50 px-4 py-1 rounded-full"><i class="fa-solid fa-location-dot mr-2"></i> 시민생활스포츠센터(a) 8코트</span>
+                        <span class="text-sm font-semibold text-slate-500 bg-slate-50 px-4 py-1 rounded-full"><i class="fa-solid fa-location-dot mr-2"></i> 시민생활스포츠센터(a) 4코트</span>
+                    </div>
+                </div>
+
+                <!-- 경기 7: 차신효/조진희 -->
+                <div class="match-card bg-white p-6 rounded-3xl shadow-sm border-slate-100 ring-4 ring-indigo-50">
+                    <div class="flex justify-between items-start mb-4">
+                        <span class="px-3 py-1 bg-indigo-100 text-indigo-700 text-sm font-black rounded-lg uppercase">3 ROUND</span>
+                        <span class="text-indigo-600 match-time"><i class="fa-regular fa-clock mr-2"></i> 10:24</span>
+                    </div>
+                    <div class="flex flex-col items-center text-center gap-3">
+                        <div class="player-name text-slate-800 font-bold">
+                            <span class="highlight-player">차신효</span>[참마음] / <span class="highlight-player">조진희</span>[침산]
+                        </div>
+                        <div class="vs-badge text-white px-5 py-1 rounded-full font-black tracking-tighter shadow-sm">VS</div>
+                        <div class="player-name text-slate-700">박경미[대호] / 노혜영[황금]</div>
+                    </div>
+                    <div class="mt-5 pt-4 border-t-2 border-dashed border-slate-100 text-center">
+                        <span class="text-sm font-semibold text-slate-500 bg-slate-50 px-4 py-1 rounded-full"><i class="fa-solid fa-location-dot mr-2"></i> 시민생활스포츠센터(a) 9코트</span>
                     </div>
                 </div>
             </div>
@@ -211,7 +290,7 @@
         <div class="flex flex-col gap-2">
             <p class="text-base">© 2025 가치있는 미래교육연구소. All rights reserved.</p>
             <p class="text-lg font-bold text-slate-600">
-                <span class="text-blue-600">김병찬, 김우찬, 차신효, 조진희, 김영환, 임성민</span> 선수님의 우승을 응원합니다!
+                <span class="text-blue-600">김병찬, 김우찬, 차신효, 조진희, 김영환, 임성민</span> 선수님의 승리를 응원합니다!
             </p>
         </div>
     </footer>
